@@ -1,6 +1,7 @@
 const button = document.querySelector("#button");
 const input = document.querySelector("#input");
 const voicerec = document.querySelector("#voicerec");
+const voicerec1 = document.querySelector("#voicerec1");
 
 function redirect() {
   console.log("access");
@@ -150,4 +151,5 @@ function record() {
   recognition.start();
 }
 voicerec.addEventListener("click", record);
+voicerec1.addEventListener("click", record);
 button.addEventListener("click", redirect);
