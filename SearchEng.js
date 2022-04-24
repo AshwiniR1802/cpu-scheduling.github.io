@@ -11,7 +11,7 @@ function redirect() {
     input.value === "Fcfs." ||
     input.value === "F cfs."
   ) {
-    window.location = "./FCFS.HTML";
+    window.location = "./FCFS.html";
     input.value = "";
   }
   if (
@@ -43,31 +43,31 @@ function redirect() {
     input.value = "";
   }
   if (input.value === "contact us" || input.value === "Contact us.") {
-    window.location = "./index.HTML#colophon";
+    window.location = "./index.html#colophon";
     input.value = "";
   }
   if (input.value === "intro" || input.value === "Introduction.") {
-    window.location = "./index.HTML#intro";
+    window.location = "./index.html#intro";
     input.value = "";
   }
   if (input.value === "about" || input.value === "About.") {
-    window.location = "./index.HTML#why";
+    window.location = "./index.html#why";
     input.value = "";
   }
   if (input.value === "types" || input.value === "Types.") {
-    window.location = "./index.HTML#about";
+    window.location = "./index.html#about";
     input.value = "";
   }
   if (input.value === "terminologies" || input.value === "Terminologies.") {
-    window.location = "./index.HTML#terms";
+    window.location = "./index.html#terms";
     input.value = "";
   }
   if (input.value === "algorithms" || input.value === "Algorithms." || input.value === "Algo" || input.value === "algo.") {
-    window.location = "./index.HTML#services";
+    window.location = "./index.html#services";
     input.value = "";
   }
   if (input.value === "home" || input.value === "Home.") {
-    window.location = "./index.HTML#top";
+    window.location = "./index.html#top";
     input.value = "";
   }
 }
@@ -85,7 +85,7 @@ function record() {
       event.results[0][0].transcript === "F cfs."
     ) {
       console.log("HII");
-      window.location = "./FCFS.HTML";
+      window.location = "./FCFS.html";
       input.value = "";
     }
     if (
@@ -119,31 +119,31 @@ function record() {
       input.value = "";
     }
     if (event.results[0][0].transcript === "contact us" || event.results[0][0].transcript === "Contact us.") {
-      window.location = "./index.HTML#colophon";
+      window.location = "./index.html#colophon";
       input.value = "";
     }
     if (event.results[0][0].transcript === "intro" || event.results[0][0].transcript === "Introduction.") {
-      window.location = "./index.HTML#intro";
+      window.location = "./index.html#intro";
       input.value = "";
     }
     if (event.results[0][0].transcript === "about" || event.results[0][0].transcript === "About.") {
-      window.location = "./index.HTML#why";
+      window.location = "./index.html#why";
       input.value = "";
     }
     if (event.results[0][0].transcript === "types" || event.results[0][0].transcript === "Types.") {
-      window.location = "./index.HTML#about";
+      window.location = "./index.html#about";
       input.value = "";
     }
     if (event.results[0][0].transcript === "terminologies" || event.results[0][0].transcript === "Terminologies.") {
-      window.location = "./index.HTML#terms";
+      window.location = "./index.html#terms";
       input.value = "";
     }
     if (event.results[0][0].transcript === "algorithms" || event.results[0][0].transcript === "Algorithms." || event.results[0][0].transcript === "algo" ||  event.results[0][0].transcript === "Algo.") {
-      window.location = "./index.HTML#services";
+      window.location = "./index.html#services";
       input.value = "";
     }
     if (event.results[0][0].transcript === "home" || event.results[0][0].transcript === "Home." || event.results[0][0].transcript === "Home Page." || event.results[0][0].transcript === "Homepage.") {
-      window.location = "./index.HTML#top";
+      window.location = "./index.html#top";
       input.value = "";
     }
   };
